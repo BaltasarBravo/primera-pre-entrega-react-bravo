@@ -1,10 +1,10 @@
-const ItemListContainer = () => {
+const ItemListContainer = ({greeting}) => {
 
     return (
 
         <div style={{marginTop:"200px"}}>
 
-            <h2>Articulos Proximamente . . .</h2>
+            <h2>{greeting}</h2>
 
         </div>
 

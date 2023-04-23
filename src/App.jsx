@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header" style={{justifyContent:"flex-start"}}>
         <NavBar />
-        <ItemListContainer />
+        <ItemListContainer greeting="Articulos Proximamente . . ."/>
       </header>
     </div>
   );

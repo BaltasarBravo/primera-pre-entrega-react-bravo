@@ -1,2 +1,2 @@
-import ItemList from "./ItemListContainer";
+import ItemList from "./ItemList";
 export default ItemList;

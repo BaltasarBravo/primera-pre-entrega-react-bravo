@@ -8,20 +8,18 @@ import { useEffect } from 'react';
 
 function App() {
 
-useEffect(() => {
-  fetch("https://pokeapi.co/api/v2/pokemon?limit=10&offset=0")
-  .then((result) => {
-    console.log(result);
-  })
-},[])
 
   return (
     <div className="App">
-      <header className="App-header" style={{justifyContent:"flex-start"}}>
+      <header className="App-header" style={{  }}>
         <NavBar />
-        <ItemListContainer greeting="Articulos Proximamente . . ." />
-        <Contador/>
+        <section>
+        <ItemListContainer />
+        <Contador />
+      </section>
       </header>
+
+      
     </div>
   );
 }

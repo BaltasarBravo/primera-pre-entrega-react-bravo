@@ -16,19 +16,9 @@ const ItemListContainer = ({ greeting }) => {
 
     return (
 
-        <div style={{ marginTop: "200px" }}>
-
-            {<h2>{greeting}</h2>}
+        <div style={{ marginTop: "200px", display:"flex"}}>
             <ItemList products={products} />
         </div>
-
-
-
-        // <>
-        // {props.map((item) =>
-        // return <ItemDetail {...item}/> 
-        // )}
-        // </>
 
     );
 

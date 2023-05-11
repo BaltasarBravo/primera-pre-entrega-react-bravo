@@ -14,7 +14,7 @@ const Contador = () => {
       <button onClick={() => setContador(contador + 1)}>
         +
       </button>
-      <button onClick={onAdd}>Agregar al carrito de compras</button>
+      {/* <button onClick={onAdd}>Agregar al carrito de compras</button> */}
       <button onClick={() => setContador(contador - 1)}>-</button>
     </div>
   );
